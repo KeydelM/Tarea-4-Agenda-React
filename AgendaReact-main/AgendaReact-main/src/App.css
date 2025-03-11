@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+  font-size: 2rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+/* Formulario para agregar contactos */
+.form-inline .form-control {
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+button.btn-primary {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+button.btn-primary i {
+  margin-right: 5px;
+}
+
+/* Lista de contactos */
+ul.list-group {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  background-color: #f9fafb;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item strong {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+footer p {
+  margin: 0;
+}
